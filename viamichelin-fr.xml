@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" 
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+  xmlns:ie="http://schemas.microsoft.com/Search/2008/">
+  <ShortName>Via Michelin</ShortName>
+	<Description>Recherche d'adresses sur viamichelin</Description>
+	<Language>fr</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="32" width="32" type="image/png">http://www.viamichelin.fr/favicon.png</Image>
+	<Url type="text/html" method="GET" template="http://www.viamichelin.fr/web/Cartes-plans?address={searchTerms}"/>
+	<ie:PreviewUrl type="text/html" method="GET" template="http://www.viamichelin.fr/web/Cartes-plans?address={searchTerms}"/>
+	<moz:SearchForm>http://www.viamichelin.fr/web/Cartes-plans</moz:SearchForm>
+</OpenSearchDescription>
